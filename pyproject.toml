@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "iplocate-client"
+version = "0.1.0"
+description = "Python client for iplocate.net — IP geolocation API"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Vladimir", email = "wow4er@gmail.com" }]
+dependencies = ["httpx>=0.27"]
+
+[project.urls]
+Homepage = "https://iplocate.net"
+Repository = "https://github.com/wow4er/iplocate-client"
